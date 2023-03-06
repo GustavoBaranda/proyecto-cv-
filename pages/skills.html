@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gustavo Baranda's skills</title>
+    <meta name="description" content="Skills and technologies I have developed and worked with so far">
+    <meta name="keywords" content="html, css, javascript, developer, frontend, web developer,skills, technologies, Gustavo, Baranda">
+    <link rel="stylesheet" href="../styles/css/styles.css">
+    <script src="https://kit.fontawesome.com/c994bea628.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body class="section4">
+    <div class="wrapper">
+        <header>
+            <div class="navbar">
+                <nav class="navbar">
+                    <a href="../index.html">Home</a>
+                    <a href="aboutme.html">About Me</a>
+                    <a href="projects.html">Projects</a>
+                    <a class="current" href="skills.html">Skills</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+            <div class="navbar-mobile-container">
+                <nav class="nav-mobile">
+                    <a href="../index.html">Home</a>
+                    <a href="aboutme.html">About Me</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="skills.html">Skills</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+                <span id="barmenu"><i class="fas fa-bars" id="brmenu"></i></span>
+            </div>
+        </header>
+
+        <main>
+            <div class="container-skills">
+                <h1 class="section-title" id="starting-title_skills">
+                    < Skills >
+                </h1>
+                <div class="skillgrid">
+                    <div class="skills">
+                        <div class="skill-bar">
+                            <div class="info">
+                                <span class="skill-name">HTML</span>
+                            </div>
+                            <div class="progress-bar html"><span class="progress"></span></div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="info">
+                                <span class="skill-name">CSS</span>
+                            </div>
+                            <div class="progress-bar css"><span class="progress"></span></div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="info">
+                                <span class="skill-name">Javascript</span>
+                            </div>
+                            <div class="progress-bar js"><span class="progress"></span></div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="info">
+                                <span class="skill-name">React</span>
+                            </div>
+                            <div class="progress-bar angular"><span class=".progress-bar-animated"></span></div>
+                        </div>
+                    </div>
+                    <div class="certificate">
+                        <div class="info-certificates">
+                            <a class="certificado" href="#">Web developer<i class="fas fa-angle-double-right"></i></a>
+                            <p class="text">HTML & CSS - </p>
+                        </div>
+                        <div class="info-certificates">
+                            <a class="certificado" href="#">Javascript<i class="fas fa-angle-double-right"></i></a>
+                            <p class="text">Javascript</p>
+                        </div>
+                        <div class="info-certificates">
+                            <a class="certificado" href="#">React<i class="fas fa-angle-double-right"></i></a>
+                            <p class="text">React</p>
+                        </div>
+                        <div class="info-certificates">
+                            <a class="certificado" href="#">Certificado 4<i class="fas fa-angle-double-right"></i></a>
+                            <p class="text">descripcion, fecha, titulo</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <h2 class="section-title" id="closing-title_skills">
+                    < / Skills >
+                </h2>
+            </div>
+        </main>
+
+
+        <aside class="left">
+            <div class="smedia">
+                <div class="socialmedia">
+
+                    <div class="verticalline top">
+                        <img class="vline" src="../img/straight-vertical-line-png-8.png" alt="">
+                    </div>
+                    <a class="button" href="mailto:baranda.gustavo@gmail.com" target="_blank">
+                        <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                        <span class="mediatitle">E-mail</span>
+                    </a>
+                    <a class="button" href="https://github.com/GustavoBaranda" target="_blank">
+                        <div class="icon"><i class="fab fa-github"></i></div>
+                        <span class="mediatitle">Github</span>
+                    </a>
+                    <a class="button" href="https://www.linkedin.com/in/gustavobaranda/" target="_blank">
+                        <div class="icon"><i class="fab fa-linkedin-in"></i></div>
+                        <span class="mediatitle">Linkedin</span>
+                    </a>
+
+                    <div class="verticalline">
+                        <img class="vline" src="../img/straight-vertical-line-png-8.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <aside class="right">
+            <div class="verticaltext">
+                <div class="verticalline">
+                    <img class="vliner" src="../img/straight-vertical-line-png-8top.png" alt="">
+                </div>
+                <a href="#" class="contact-email">baranda.gustavo@gmail.com</a>
+                <div class="verticalline">
+                    <img class="vliner" src="../img/straight-vertical-line-png-bottom.png" alt="">
+                </div>
+            </div>
+        </aside>
+
+        <footer>
+            <div class="footer">
+                <p class="footer-info text">Designed and built by <a href="https://www.linkedin.com/in/gustavobaranda/" target="_blank">Gustavo Baranda</a></p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $(".nav-mobile").hide();
+            $("#brmenu").click(function() {
+                $(".nav-mobile").toggle(500);
+            });
+
+
+
+        });
+    </script>
+
+</body>
+
+</html>
